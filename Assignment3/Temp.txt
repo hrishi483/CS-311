@@ -1,0 +1,22 @@
+add 00000 
+addi 00001 R2I-Type rd = rs1 + imm
+sub 00010 R3-Type rd = rs1 - rs2
+subi 00011 R2I-Type rd = rs1 - imm
+mul 00100 R3-Type rd = rs1 * rs2
+muli 00101 R2I-Type rd = rs1 * imm
+div 00110 R3-Type rd = rs1 / rs2
+divi 00111 R2I-Type rd = rs1 / imm
+and 01000 R3-Type rd = rs1 & rs2
+andi 01001 R2I-Type rd = rs1 & imm
+or 01010 R3-Type rd = rs1 | rs2
+ori 01011 R2I-Type rd = rs1 | imm
+xor 01100 R3-Type rd = rs1 (xor) rs2
+xori 01101 R2I-Type rd = rs1 (xor) imm
+slt 01110 R3-Type rd = 1 if rs1 < rs2, 0 otherwise
+slti 01111 R2I-Type rd = 1 if rs1 < imm, 0 otherwise
+sll 10000 R3-Type rd = rs1 logically left shifted by rs2 bits
+slli 10001 R2I-Type rd = rs1 logically left shifted by imm bits
+srl 10010 R3-Type rd = rs1 logically right shifted by rs2 bits
+srli 10011 R2I-Type rd = rs1 logically right shifted by imm bits
+sra 10100 R3-Type rd = rs1 arithmetically right shifted by rs2 bits
+srai 10101 

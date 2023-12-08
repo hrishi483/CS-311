@@ -1,0 +1,5 @@
+    load %x0, $a, %x3
+    addi %x0, 0, %x5
+    store %x3, 0, %x5
+    addi %x3, 1, %x3
+    store %x3, 1, %x5
